@@ -13,7 +13,7 @@ const _sleep = util.promisify(setTimeout);
 async function startTool() {
     await importantTaskBeforeStart();
     await startTelegramBot();
-};
+}
 
 startTool();
 
@@ -25,7 +25,7 @@ async function startTelegramBot() {
         console.error(err);
     });
     Logger.debug('Telegram bot started successfully!');
-};
+}
 
 /**
  * 
