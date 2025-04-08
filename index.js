@@ -1,5 +1,5 @@
-var _storedMails = require('./saved data/unusedemail.json');
-var _usedMails = require('./saved data/usedemail.json');
+const _storedMails = require('./saved data/unusedemail.json');
+const _usedMails = require('./saved data/usedemail.json');
 const util = require('util');
 const Logger = require('./src/base/Logger');
 const { Utils, accpetedFormats } = require('./src/base/utils');
