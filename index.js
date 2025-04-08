@@ -9,6 +9,9 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 let telegramBot = null;
 const _sleep = util.promisify(setTimeout);
+import _storedMails from './saved data/unusedemail.json' assert { type: 'json' };
+import { TelegramBot } from './src/telegram/bot.js';
+import { readJson } from 'https://deno.land/std/fs/mod.ts';
 
 async function startTool() {
     await importantTaskBeforeStart();
