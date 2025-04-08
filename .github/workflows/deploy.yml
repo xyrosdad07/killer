@@ -38,7 +38,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "xyrosdad07-killer-10"
-          entrypoint: "index.js"
+          entrypoint: ""
           root: "/index.js"
-          include: index.js src/ saved data/ config.js package.json
-          exclude: node_modules/ .env
+          
+          
